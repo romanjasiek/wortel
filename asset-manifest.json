@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wortel/static/css/main.df1bf472.css",
+    "main.js": "/wortel/static/js/main.cbddf2f3.js",
+    "index.html": "/wortel/index.html",
+    "main.df1bf472.css.map": "/wortel/static/css/main.df1bf472.css.map",
+    "main.cbddf2f3.js.map": "/wortel/static/js/main.cbddf2f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df1bf472.css",
+    "static/js/main.cbddf2f3.js"
+  ]
+}
