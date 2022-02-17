@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "SF Pro";
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: local('San Francisco Regular'), url(../fonts/SF-Pro.ttf) format('truetype');
+  }
+
 .keyboard-rows{
     display: flex;
     flex-direction: column;
@@ -13,6 +24,7 @@
 }
 
 button{
+    font-family: "SF Pro";
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
@@ -21,6 +33,12 @@ button{
     border: none;
     text-transform: uppercase;
 }
+
+@media only screen and (max-width: 36em) {
+    button{
+        padding: 12px 8px;}
+}
+
 .key-correct{
     background: #6aaa64;
     color: #fff;

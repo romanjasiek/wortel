@@ -33,7 +33,7 @@ const App = () => {
   }
 
   const handleError = () => {
-    setError(message);
+    setError(error);
     setTimeout(() => {
       setError(null);
     }, 3000);

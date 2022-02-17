@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "Roboto Serif";
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: local('Roboto Serif'), url(./fonts/RobotoSerif-VariableFont.ttf) format('truetype');
+}
+
+body {
+  background-color: #333333;
+}
+
 .container{
     display: flex;
     position: relative;
@@ -17,6 +32,8 @@
 }
 
 .title{
+    font-family: "Roboto Serif";
+    color: rgb(233, 196, 106);
     letter-spacing: 0.2rem;
     font-size: 36px;
     font-weight: 600;
@@ -34,6 +51,8 @@
     gap:5px;
 }
 .letter{
+    color: #fefefe;
+    font-family: "SF Pro";
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
@@ -43,7 +62,8 @@
     font-weight: 700;
     width: 60px;
     height: 60px;
-    border: 2px solid #d3d6da;
+    background-color: #222222;
+    border: 2px solid rgb(233, 196, 106);
 }
 
 .reset-board{
@@ -57,7 +77,7 @@
     display: flex;
     flex-direction: row;
     padding:10px 20px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgb(233, 196, 106);
 }
 .bottom{
 
@@ -88,17 +108,20 @@
   }
 
 .correct{
+    border-color: #6aaa64;
     background: #6aaa64;
     color: #fff;
 
 }
 
 .present{
+    border-color: #c9b458;
     background: #c9b458;
     color: #fff;
 }
 
 .absent{
+    border-color: #787c7e;
     background: #787c7e;
     color: #fff;
 }

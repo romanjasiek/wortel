@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://romanjasiek.github.io/wortel",
   "dependencies": {
+    "@adobe/react-spectrum": "^3.16.1",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -14,8 +15,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-  "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
